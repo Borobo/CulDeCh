@@ -5,8 +5,10 @@
     <title>Cul de Chouette</title>
 
     <script src="../jquery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="styleHome.css">
 </head>
 <body>
+        <br>
         <form>
             <div id="mainDiv">
                 <select id="choixComb">
@@ -18,18 +20,22 @@
                     <option>Suite</option>
                 </select>
 
-                <input type="number">
-                <p id="score"></p>
+                <input type="number" class="numb" min="1" max="6">
+                <p id="score">0</p>
 
-                <input type="button" id="confirm" value="Confimer">
-                <input type="button" id="cancel" value="Annuler">
+                <div id="confDiv">
+                    <input type="button" id="confirm" value="Confimer">
+                    </br>
+                    <input type="button" id="cancel" value="Annuler">
+                </div>
             </div>
-
+            </br></br></br></br>
             <div id="autre">
-                <input id="bev" value="Bévue">
-                <input id="bonus" value="Bonus">
+                <input id="bev" type="button" value="Bévue">
+                </br></br>
+                <input id="bonus" type="button" value="Bonus">
                 <!-- TODO : Afficher les joueurs dans un select -->
-                <input type="number">
+                <input type="number" class="numb">
             </div>
         </form>
 </body>

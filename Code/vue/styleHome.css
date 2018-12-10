@@ -1,0 +1,52 @@
+body{
+    margin-top: 70px;
+}
+
+form{
+    position: absolute;
+    margin: auto;
+
+}
+
+.numb{
+    width: 30px;
+    margin-left: 50px;
+}
+
+.numb:last-child{
+    width: 50px;
+}
+
+#mainDiv {
+    position: relative;
+   // background-color: #003eff;
+
+}
+
+#score {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    margin-top: 1px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#confDiv{
+    position: absolute;
+    left: 400px;
+    top: 0;
+    display: block;
+}
+
+#confDiv *{
+    margin-bottom: 5px;
+}
+
+#cancel{
+    margin-left: 5%;
+}
+
+#autre{
+    //background-color: #007fff;
+}
