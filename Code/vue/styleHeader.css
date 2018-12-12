@@ -1,0 +1,35 @@
+body{
+   margin: 0;
+}
+
+#banner{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: crimson;
+    top: 0;
+    font-family: "Eagle Lake", cursive;
+    font-size: 18pt;
+    color: white;
+    display: flex;
+}
+
+.joueur{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.score{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+div div{
+    padding: 0px 5px;
+    margin-left: 50px;
+    display: flex;
+    //background-color: #a60f2d;
+    //box-shadow: inset 1px 1px 10px 1px rgba(0,0,0,0.5);
+    /* TODO : Activer le background et le box-shadow ci dessus quand c'est au joueur de jouer;
+     */
+}

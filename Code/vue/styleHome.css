@@ -8,6 +8,29 @@ form{
 
 }
 
+input{
+    border: 1px black solid;
+    padding: 5px;
+    box-shadow: rgba(0,0,0,0.5) 2px 2px;
+}
+
+select{
+    border: 1px black solid;
+    padding: 5px;
+}
+
+option{
+    border: 1px black solid;
+    background-color: #aaaaaa;
+}
+
+
+.boutton:active{
+    transform: translateX(2px) translateY(2px);
+    box-shadow: none;
+
+}
+
 .numb{
     width: 30px;
     margin-left: 50px;
@@ -50,3 +73,4 @@ form{
 #autre{
     //background-color: #007fff;
 }
+
