@@ -1,5 +1,9 @@
 body{
     margin-top: 70px;
+    background-image: url("https://i.pinimg.com/originals/0f/da/cf/0fdacfaf2062160b8d2b1712bae9e86e.jpg") ;
+    background-position: top;
+    font-family: "Eagle Lake", cursive;
+
 }
 
 form{
@@ -9,14 +13,18 @@ form{
 }
 
 input{
+    font-family: "Eagle Lake", cursive;
     border: 1px black solid;
     padding: 5px;
     box-shadow: rgba(0,0,0,0.5) 2px 2px;
+    border-radius: 10px;
 }
 
 select{
     border: 1px black solid;
     padding: 5px;
+    font-family: "Eagle Lake", cursive;
+
 }
 
 option{
@@ -72,5 +80,13 @@ option{
 
 #autre{
     //background-color: #007fff;
+    position: absolute;
+    top: 90px;
 }
 
+#bandeau{
+    background-color: rgba(255,255,255,0.5);
+    height: 188px;
+    border: 5px solid crimson;
+    padding: 10px;
+}
